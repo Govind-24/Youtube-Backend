@@ -1,16 +1,27 @@
 {
   "name": "youtube-backend",
   "version": "1.0.0",
-  "description": "Youtube-Backend",
+  "description": "youtube - Backend",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+   "dev":"nodemon src/index.js",
+   "main":"index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Govind-24/Youtube-Backend.git"
   },
   "keywords": [
-    "Javascript",
-    "Node",
-    "Backend"
+    "node",
+    "javascript"
   ],
-  "author": "Govind",
-  "license": "ISC"
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Govind-24/Youtube-Backend/issues"
+  },
+  "homepage": "https://github.com/Govind-24/Youtube-Backend#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
 }
